@@ -1,6 +1,6 @@
 # Term
 Repository (Repo): Folder dự án
-Branch:
+Branch: cành mặc định là master
 
 # Commands
 - git init: biến dự án thành git Repository
@@ -14,5 +14,8 @@ Branch:
 - git log --oneline: xem ngắn gọn hơn
 - git checkout + id git commit: quay lại thời điểm commit
 - git checkout master: quay lại thời điẻm ban đầu
-- git checkout {Branchname}
-- git branch
+- git checkout {branchname}
+- git branch: xem các branch
+- git checkout -b {branchname}: tạo branch mới
+- git merge {branch name}: xác nhập 2 branch với nhau
+- git branch -d {branchname}: xóa branch
