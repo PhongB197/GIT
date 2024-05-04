@@ -1,7 +1,7 @@
 # Term
 Repository (Repo): Folder dự án
 Branch: cành mặc định là master
-
+Conflict: xung đột
 # Commands
 - git init: biến dự án thành git Repository
 - git status: xem trạng thái của dự án (đã thay đổi những j)
