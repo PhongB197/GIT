@@ -23,5 +23,7 @@ Conflict: xung đột
 - git checkout -b {branchname}: tạo branch mới
 - git merge {branch name}: xác nhập 2 branch với nhau
 - git branch -d {branchname}: xóa branch
+- git push + link + branch_name: đẩy lên remote repo
+- git clone + đường dẫn: pull
 # Note
 - Tạo branch sau dựa trên branch trước thì branch sau vẫn có những commit của branch trước
