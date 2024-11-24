@@ -2,6 +2,7 @@
 Repository (Repo): Folder dự án
 Branch: cành mặc định là master
 Conflict: xung đột
+Ignore: cho phép những file hoặc thư mục ko muốn git quan tâm tới
 # Commands
 - git --version: xem phiên bản git
 - git config --global user.name {user name}: đặt tên người dùng
@@ -26,5 +27,10 @@ Conflict: xung đột
 - git push + link + branch_name: đẩy lên remote repo
 - git remote add origin + link: gán link = origin
 - git clone + đường dẫn: pull
+- git push -u origin dev: đẩy branch lên remote
+- git checkout master -> git fetch origin -> git checkout -b staging origin/branch_name: kéo branch xuống
+
 # Note
 - Tạo branch sau dựa trên branch trước thì branch sau vẫn có những commit của branch trước
+- Merge 2 branch trên github: Pull request->new pull request->create pull request->confirm->git pull
+- đưa tên file vào file .gitignore để ignore file
